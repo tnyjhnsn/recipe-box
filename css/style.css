@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css?family=IM+Fell+English+SC";
+body {
+  background: #999999;
+  padding: 50px 0;
+  font-family: sans-serif;
+  font-weight: 100;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
+#background-img {
+  z-index: 1; }
+
+#background-img:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("https://s19.postimg.org/jhus8zrs3/suicide_forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  width: 100%; }
+
+h3 {
+  font-family: 'IM Fell English SC', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #490268; }
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #412b5c; }
+
+.panel {
+  border: 1px solid #999999; }
+  .panel > .panel-heading {
+    background-color: #412b5c;
+    color: #c8d6d3; }
+
+a,
+a:hover,
+a:visited,
+a:collapsed {
+  text-decoration: none;
+  outline-color: none; }
+
+button {
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 3px;
+  background-color: #093a6e;
+  color: #c8d6d3; }
+  button:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70); }
+
+/*# sourceMappingURL=style.css.map */
